@@ -9,3 +9,6 @@ sudo chmod +x /opt/vbox/vbox.sh
 * Edit /opt/vbox/vms by adding your virtual machines names (the ones you want to auto start ato boot time).
 * Enable service by executing on terminal:<br>
 sudo systemctl enable vbox.service
+
+TODO list<br>
+Make it work for every user not just root.
