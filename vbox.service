@@ -1,0 +1,13 @@
+[Unit]
+Description=VBox by nagruy
+After=network.target ypbind.service nfs.service nfsserver.service rpcbind.service SuSEfirewall2_init.service
+Wants=SuSEfirewall2_init.service
+
+[Service]
+ExecStart=/opt/vbox/vboxes.sh start
+ExecStop=/opt/vbox/vboxes.sh stop
+RemainAfterExit=true
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target

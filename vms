@@ -1,0 +1,4 @@
+# Virtual machines names separated by space
+# example:
+# VMS="vm-name vm-name.2 other.vm.pc"
+VMS=""
