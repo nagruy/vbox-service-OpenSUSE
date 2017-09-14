@@ -4,8 +4,8 @@ After=network.target ypbind.service nfs.service nfsserver.service rpcbind.servic
 Wants=SuSEfirewall2_init.service
 
 [Service]
-ExecStart=/opt/vbox/vboxes.sh start
-ExecStop=/opt/vbox/vboxes.sh stop
+ExecStart=/opt/vbox/vbox.sh start
+ExecStop=/opt/vbox/vbox.sh stop
 RemainAfterExit=true
 Type=oneshot
 
