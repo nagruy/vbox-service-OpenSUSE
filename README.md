@@ -6,7 +6,7 @@ OpenSUSE systemctl service
 * Grant executing permissions on vbox.sh<br>
 sudo chmod +x /opt/vbox/vbox.sh
 * Place vms file in /opt/vbox/ directory.
-* Edit /opt/vbox/vms by adding your virtual machines names (the ones you want to auto start ato boot time).
+* Edit /opt/vbox/vms by adding your virtual machines names (the ones you want to auto start to boot time).
 * Enable service by executing on terminal:<br>
 sudo systemctl enable vbox.service
 
