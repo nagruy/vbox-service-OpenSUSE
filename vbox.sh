@@ -51,7 +51,7 @@ stop()
 
         for vm in $VMS_ON; do
             # Guardo estado de las vms. | # Save vms state
-            echo "/usr/bin/su - $user -c \"$VBOX_MANAGE controlvm $vm savestate\""
+            /usr/bin/su - $user -c "$VBOX_MANAGE controlvm $vm savestate"
         done
     done
 }
